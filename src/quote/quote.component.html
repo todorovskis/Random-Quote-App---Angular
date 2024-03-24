@@ -1,0 +1,10 @@
+<div id="wrapper">
+    <div id="quote-box">
+        <h3 id="quote-header" [style.color]="color">&ldquo;{{quote.quote}}</h3>
+        <p id="quote-author" [style.color]="color">- {{quote.author}}</p>
+        <button (click)="getRandomQuote(); changeColors()" [style.background-color]="color">New Quote</button>
+    </div>
+
+    <p id="made-by">by me</p>
+
+</div>
